@@ -1,5 +1,6 @@
 package com.mertzlos.speedoflight;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -32,6 +33,7 @@ public class MoreActivity extends AppCompatActivity {
     private int step = 1;
     private int min = 1;
     private int max = 1000;
+    private String metric;
 
 
     @Override
@@ -48,6 +50,14 @@ public class MoreActivity extends AppCompatActivity {
         edgeSolarInfo = (TextView) findViewById(R.id.solar_info);
         siriusInfo = (TextView) findViewById(R.id.sirius_info);
         andromedaInfo = (TextView) findViewById(R.id.andromeda_info);
+
+
+        Intent intent = getIntent();
+        if(null != intent) {
+            metric = intent.getStringExtra(StartUpActivity.MESSAGE_FOR);
+        }
+        Log.v("metric",metric);
+
 
 
         sunEarth.setText("" + seekBar.getProgress());

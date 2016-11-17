@@ -1,7 +1,4 @@
-#Thu Nov 17 20:33:06 EET 2016
-base.0=/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3395f61320a9f9df56b11a8beb68ba46bfeb8c7a
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3c0667647c550ff4c92fc49e701ac7b45a6c9664/classes.dex
-base.1=/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3c0667647c550ff4c92fc49e701ac7b45a6c9664
-file.0=/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3395f61320a9f9df56b11a8beb68ba46bfeb8c7a/classes.dex
+#Fri Nov 18 01:10:54 EET 2016
+base.0=/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

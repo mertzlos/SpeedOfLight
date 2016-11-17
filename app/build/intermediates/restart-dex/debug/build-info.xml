@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="23"
-    density="xxxhdpi"
+    abi="x86"
+    api-level="18"
+    density="tvdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="2127818474970"
+    timestamp="17661105586193"
     token="-2100636939469090395"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="374" />
+        duration="4162" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="172" />
+        duration="449" />
     <task
         name="verifier"
         duration="11" />
@@ -27,7 +27,7 @@
         type="MAIN" />
 
     <build
-        timestamp="2127818474970"
+        timestamp="17661105586193"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/outputs/apk/app-debug.apk"
