@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="myText" >
+    <item name="android:textSize">30sp</item>
+    </style>
+    <style name="mainTitle" >
+        <item name="android:textSize">38sp</item>
+    </style>
+
+</resources>

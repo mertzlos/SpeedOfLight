@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Speed Of Light</string>
+    <string name="solar">Solar</string>
+    <string name="stars">Stars</string>
+    <string name="earth">Earth</string>
+    <string name="scale_model">Scale Model</string>
+    <string name="car">Car</string>
+    <string name="plane">Plane</string>
+    <string name="rocket">Rocket</string>
+    <string name="light">Light</string>
+    <string name="approximate_dist">All distances are approximate.</string>
+    <string name="sun_diameter">Earth Sun Distance Scale:</string>
+    <string name="scale_model_of_distances">Scale Model of Distances</string>
+    <string name="sun">Distance from Sun</string>
+    <string name="venus">Venus:</string>
+    <string name="earth_more">Earth:</string>
+    <string name="mars">Mars:</string>
+    <string name="jupiter">Jupiter:</string>
+    <string name="solar_edge">Solar Edge:</string>
+    <string name="sirius">Sirius:</string>
+    <string name="andromeda">Andromeda:</string>
+
+
+</resources>

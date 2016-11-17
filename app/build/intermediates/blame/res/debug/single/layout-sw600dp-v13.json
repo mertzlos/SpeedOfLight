@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/activity_more.xml",
+        "source": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/src/main/res/layout-sw600dp/activity_more.xml"
+    },
+    {
+        "merged": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/activity_main.xml",
+        "source": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/src/main/res/layout-sw600dp/activity_main.xml"
+    }
+]
