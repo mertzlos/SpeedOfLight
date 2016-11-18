@@ -33,7 +33,7 @@ public class MoreActivity extends AppCompatActivity {
     private int step = 1;
     private int min = 1;
     private int max = 1000;
-    private String metric;
+    private String metricSys;
 
 
     @Override
@@ -54,9 +54,9 @@ public class MoreActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         if(null != intent) {
-            metric = intent.getStringExtra(MainActivity.MORE_ACTIVITY);
+            metricSys = intent.getStringExtra(MainActivity.MORE_ACTIVITY);
         }
-        Log.v("metric",metric);
+        Log.v("metricSys", metricSys);
 
 
 
@@ -118,7 +118,7 @@ public class MoreActivity extends AppCompatActivity {
     public String convertMetric(double planetInfo) {
         decimalFormat = new DecimalFormat("#,###,###.#");
 
-        if(metric.equals("Miles")){
+        if(metricSys.equals("Miles")){
            planetInfo = planetInfo *0.621371192;
             Log.v("miles","tru");
         }
