@@ -1,4 +1,4 @@
-#Fri Nov 18 02:54:45 EET 2016
+#Fri Nov 18 12:49:35 EET 2016
 base.0=/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

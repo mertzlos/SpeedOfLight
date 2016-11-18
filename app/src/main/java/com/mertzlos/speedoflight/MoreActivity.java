@@ -71,6 +71,10 @@ public class MoreActivity extends AppCompatActivity {
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
 
                 double value = min + (progress * step);
+
+                if(metricSys.equals("Miles")){
+
+                }
                 sunEarth.setText(value + " meters");
                 planetsInfo(value);
 
@@ -116,23 +120,26 @@ public class MoreActivity extends AppCompatActivity {
     }
 
     public String convertMetric(double planetInfo) {
-        decimalFormat = new DecimalFormat("#,###,###.#");
-
-        if(metricSys.equals("Miles")){
-           planetInfo = planetInfo *0.621371192;
-            Log.v("miles","tru");
-        }
 
         double result;
         String metric;
         String output;
+        decimalFormat = new DecimalFormat("#,###,###.#");
 
-        if (planetInfo >= 1000) {
-            result = planetInfo / 1000;
-            metric = " km";
-        } else {
-            result = planetInfo;
-            metric = " m";
+        if(metricSys.equals("Miles")){
+           result = planetInfo *0.621371192;
+            metric = " miles";
+            Log.v("miles","tru");
+        }else {
+
+
+            if (planetInfo >= 1000) {
+                result = planetInfo / 1000;
+                metric = " km";
+            } else {
+                result = planetInfo;
+                metric = " m";
+            }
         }
 
         return output = decimalFormat.format(result) + metric;

@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="2de123f611d78c42b55002ca4e9f5093425cbc6b">
+        sha1="e957e6d727d91eccc19db2023d7671c77816c9b9">
         <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_3c0667647c550ff4c92fc49e701ac7b45a6c9664.jar" />
     </item>
     <item
@@ -52,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="0dea61165de4f14027b0ef978eb338bf176f7071">
+        sha1="7d88941e3e29956883d7557b8886893157e0fb8e">
         <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/pre-dexed/debug/instant-run_3395f61320a9f9df56b11a8beb68ba46bfeb8c7a.jar" />
     </item>
     <item
