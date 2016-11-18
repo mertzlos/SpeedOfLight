@@ -17,6 +17,7 @@ public class MoreActivity extends AppCompatActivity {
     private TextView marsInfo;
     private TextView jupiterInfo;
     private TextView edgeSolarInfo;
+    private TextView cetauriInfo;
     private TextView siriusInfo;
     private TextView andromedaInfo;
 
@@ -27,6 +28,7 @@ public class MoreActivity extends AppCompatActivity {
     private static final double MARS = 227900000.0;
     private static final double JUPITER = 778600000.0;
     private static final double SOLAR_EDGE = 17049600000.0;
+    private static final double ALPHA_CENTAURI = 39900000000000.0;
     private static final double SIRIUS = 81000000000000.0;
     private static final double ANDROMEDA = 24001873981552325000.0;
 
@@ -48,16 +50,16 @@ public class MoreActivity extends AppCompatActivity {
         marsInfo = (TextView) findViewById(R.id.mars_info);
         jupiterInfo = (TextView) findViewById(R.id.jupiter_info);
         edgeSolarInfo = (TextView) findViewById(R.id.solar_info);
+        cetauriInfo = (TextView) findViewById(R.id.centauri_info);
         siriusInfo = (TextView) findViewById(R.id.sirius_info);
         andromedaInfo = (TextView) findViewById(R.id.andromeda_info);
 
 
         Intent intent = getIntent();
-        if(null != intent) {
+        if (null != intent) {
             metricSys = intent.getStringExtra(MainActivity.MORE_ACTIVITY);
         }
         Log.v("metricSys", metricSys);
-
 
 
         sunEarth.setText("" + seekBar.getProgress());
@@ -69,13 +71,13 @@ public class MoreActivity extends AppCompatActivity {
 
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-
+                String ft_m = " meters";
                 double value = min + (progress * step);
 
-                if(metricSys.equals("Miles")){
-
+                if (metricSys.equals("Miles")) {
+                       ft_m = " ft";
                 }
-                sunEarth.setText(value + " meters");
+                sunEarth.setText(value + ft_m);
                 planetsInfo(value);
 
 
@@ -103,10 +105,9 @@ public class MoreActivity extends AppCompatActivity {
         double mars = MARS / earth;
         double jupiter = JUPITER / earth;
         double solarEdge = SOLAR_EDGE / earth;
+        double alpha_centauri = ALPHA_CENTAURI / earth;
         double sirius = SIRIUS / earth;
         double andromeda = ANDROMEDA / earth;
-
-
 
 
         venusInfo.setText(convertMetric(venus));
@@ -114,6 +115,7 @@ public class MoreActivity extends AppCompatActivity {
         marsInfo.setText(convertMetric(mars));
         jupiterInfo.setText(convertMetric(jupiter));
         edgeSolarInfo.setText(convertMetric(solarEdge));
+        cetauriInfo.setText(convertMetric(alpha_centauri));
         siriusInfo.setText(convertMetric(sirius));
         andromedaInfo.setText(convertMetric(andromeda));
 
@@ -126,11 +128,16 @@ public class MoreActivity extends AppCompatActivity {
         String output;
         decimalFormat = new DecimalFormat("#,###,###.#");
 
-        if(metricSys.equals("Miles")){
-           result = planetInfo *0.621371192;
-            metric = " miles";
-            Log.v("miles","tru");
-        }else {
+        if (metricSys.equals("Miles")) {
+            result = planetInfo;
+            metric = " ft";
+            if(planetInfo >= 5280){
+                result = planetInfo/5280;
+                metric = " miles";
+            }
+
+            //Log.v("miles", "tru");
+        } else {
 
 
             if (planetInfo >= 1000) {

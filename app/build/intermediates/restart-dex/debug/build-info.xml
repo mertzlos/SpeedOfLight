@@ -1,58 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="19"
-    density="280dpi"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="23"
+    density="xxxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="9761405914503"
+    timestamp="20170168201777"
     token="-2100636939469090395"
-    verifier="COMPATIBLE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="254" />
+        duration="202" />
     <task
         name="instant-run-dex"
-        duration="620" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="45" />
+        duration="140" />
     <task
         name="verifier"
-        duration="1" />
+        duration="7" />
 
     <artifact
-        location="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="8920916121679"
+        timestamp="20170168201777"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="9543876946349"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/builds/debug/9543876946349/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="9736146024662"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/builds/debug/9736146024662/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="9761405914503"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

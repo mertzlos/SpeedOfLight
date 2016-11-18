@@ -130,6 +130,19 @@
 
             <TextView
                 android:layout_gravity="end"
+                android:text="@string/alpha_centauri"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/centauri_info"
+                android:layout_marginStart="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_gravity="end"
                 android:text="@string/sirius"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 

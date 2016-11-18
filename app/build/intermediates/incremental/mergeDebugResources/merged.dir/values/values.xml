@@ -343,6 +343,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="alpha_centauri">Alpha Centauri:</string>
     <string name="andromeda">Andromeda:</string>
     <string name="app_name">Speed Of Light</string>
     <string name="approximate_dist">All distances are approximate.</string>
@@ -363,7 +364,7 @@
     <string name="stars">Stars</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sun">Distance from Sun</string>
-    <string name="sun_diameter">Earth Sun Distance Scale:</string>
+    <string name="sun_diameter">Earth-Sun Distance Scale:</string>
     <string name="venus">Venus:</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

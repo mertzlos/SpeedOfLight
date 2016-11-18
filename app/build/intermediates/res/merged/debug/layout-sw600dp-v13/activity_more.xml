@@ -129,6 +129,19 @@
         <TableRow android:layout_marginTop="5dp">
 
             <TextView
+                android:layout_gravity="end"
+                android:text="@string/alpha_centauri"
+                style="@style/myText"/>
+
+            <TextView
+                android:id="@+id/centauri_info"
+                android:layout_marginStart="5dp"
+                style="@style/myText" />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="5dp">
+
+            <TextView
                 style="@style/myText"
                 android:layout_gravity="end"
                 android:text="@string/sirius" />

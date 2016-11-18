@@ -2,166 +2,166 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_294ebb4843c557d4e2c16d71ffe97b90d9225b8f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
-        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.0_32ffdd26c907264bef7223581fd935ebe6fea0e8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
-        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.0_183edeff8e0bbf72c5881a7ce32b95259695e9ab.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e957e6d727d91eccc19db2023d7671c77816c9b9">
-        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_3c0667647c550ff4c92fc49e701ac7b45a6c9664.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
-        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_d3fc22771b8ce6896232c9fec0c17a0c1c99a333.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7d88941e3e29956883d7557b8886893157e0fb8e">
-        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/pre-dexed/debug/instant-run_3395f61320a9f9df56b11a8beb68ba46bfeb8c7a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
-        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.0_50ecafc2b64ae2ddb02bf0a556f59b844c60a688.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
-        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.0_844cc07f82057ed03d59d10882d1c369e3e5c3d0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
-        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_ecd8b8d7b149626a560cc1131350240473c9caf5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/antreas/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_2f6b3d25ef7344d6086a1c4a30b1fec28388a2e4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
-        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.0_1c0da586a5585ed4aa8ffe513d9d5ca30cbeab13.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_8a03b2824c8278c92437ca7aa155202f74b77c37.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
-        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.0_647c2a1f5ac71859180609d4ee12bb688b4dd445.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_eeb8807c026d3f45eccbcdff069c15ca6b2a7535.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_0df508be76d843bfb0bc5fadcfc8ee6675700e4b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
-        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.0_766b45edf9a67840960c218e402e1d19d4ccf377.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
-        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_afbaec8e9e3e86adec0de3ff9ca247c48c1b93a6.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_8e4362fa287c74d42109032c897b3db7349faced.jar" />
+        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_8e4362fa287c74d42109032c897b3db7349faced/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_0df508be76d843bfb0bc5fadcfc8ee6675700e4b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="39e05623521756149f445f160f43668a42b3fb43">
+        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3c0667647c550ff4c92fc49e701ac7b45a6c9664/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.0_183edeff8e0bbf72c5881a7ce32b95259695e9ab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_294ebb4843c557d4e2c16d71ffe97b90d9225b8f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.0_844cc07f82057ed03d59d10882d1c369e3e5c3d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6684ce390bf713726d4cfc569924d4e68f197900">
+        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3395f61320a9f9df56b11a8beb68ba46bfeb8c7a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/antreas/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_2f6b3d25ef7344d6086a1c4a30b1fec28388a2e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.0_50ecafc2b64ae2ddb02bf0a556f59b844c60a688/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.0_1c0da586a5585ed4aa8ffe513d9d5ca30cbeab13/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_d3fc22771b8ce6896232c9fec0c17a0c1c99a333/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_eeb8807c026d3f45eccbcdff069c15ca6b2a7535/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_8a03b2824c8278c92437ca7aa155202f74b77c37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.0_766b45edf9a67840960c218e402e1d19d4ccf377/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_afbaec8e9e3e86adec0de3ff9ca247c48c1b93a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.0_647c2a1f5ac71859180609d4ee12bb688b4dd445/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_ecd8b8d7b149626a560cc1131350240473c9caf5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.0_32ffdd26c907264bef7223581fd935ebe6fea0e8/classes.dex" />
     </item>
 
 </items>
