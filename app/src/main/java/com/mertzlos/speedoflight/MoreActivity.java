@@ -54,7 +54,7 @@ public class MoreActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         if(null != intent) {
-            metric = intent.getStringExtra(StartUpActivity.MESSAGE_FOR);
+            metric = intent.getStringExtra(MainActivity.MORE_ACTIVITY);
         }
         Log.v("metric",metric);
 
@@ -117,6 +117,11 @@ public class MoreActivity extends AppCompatActivity {
 
     public String convertMetric(double planetInfo) {
         decimalFormat = new DecimalFormat("#,###,###.#");
+
+        if(metric.equals("Miles")){
+           planetInfo = planetInfo *0.621371192;
+            Log.v("miles","tru");
+        }
 
         double result;
         String metric;

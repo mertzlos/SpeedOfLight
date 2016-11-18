@@ -11,6 +11,7 @@ import android.widget.TextView;
 import java.text.DecimalFormat;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+    static final String MORE_ACTIVITY = "metric";
 
     private Button car;
     private Button plane;
@@ -50,12 +51,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         switch (metric){
             case "Km":
-            Log.v("metric",""+metric);
             setMetricPh = "Kph";
                 break;
             case "Miles":
             setMetricPh = "Mph";
-            Log.v("metric",""+metric);
                 break;
         }
 
@@ -137,6 +136,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.more:
                 name = "more";
                 Intent intent = new Intent(getApplicationContext(), MoreActivity.class);
+                intent.putExtra(MORE_ACTIVITY,metric);
                 startActivity(intent);
                 //backgroundStateBottomRow(3);
                 break;
