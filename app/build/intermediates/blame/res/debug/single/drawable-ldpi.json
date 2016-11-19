@@ -8,11 +8,11 @@
         "source": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/generated/res/pngs/debug/drawable-ldpi/ic_light.png"
     },
     {
-        "merged": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_shuttle.png",
-        "source": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/generated/res/pngs/debug/drawable-ldpi/ic_shuttle.png"
-    },
-    {
         "merged": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_airplane.png",
         "source": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/generated/res/pngs/debug/drawable-ldpi/ic_airplane.png"
+    },
+    {
+        "merged": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_shuttle.png",
+        "source": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/generated/res/pngs/debug/drawable-ldpi/ic_shuttle.png"
     }
 ]

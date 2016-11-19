@@ -12,12 +12,12 @@
         "source": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
-        "source": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_list_menu_item_radio.xml"
-    },
-    {
         "merged": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
         "source": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_list_menu_item_radio.xml"
     },
     {
         "merged": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
@@ -96,12 +96,12 @@
         "source": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_template_part_time.xml"
     },
     {
-        "merged": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
-        "source": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
         "merged": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
         "source": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",

@@ -2,33 +2,33 @@
 <instant-run
     abi="x86"
     api-level="19"
-    density="280dpi"
+    density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="26630513073427"
+    timestamp="4094434328176"
     token="-2100636939469090395"
-    verifier="R_CLASS_CHANGE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="682" />
+        duration="1849" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="24" />
+        duration="371" />
     <task
         name="verifier"
-        duration="14" />
+        duration="12" />
 
     <artifact
         location="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="26630513073427"
-        verifier="R_CLASS_CHANGE" >
+        timestamp="4094434328176"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
