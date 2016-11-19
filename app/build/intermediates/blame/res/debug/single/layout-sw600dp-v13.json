@@ -6,5 +6,9 @@
     {
         "merged": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/activity_main.xml",
         "source": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/src/main/res/layout-sw600dp/activity_main.xml"
+    },
+    {
+        "merged": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/activity_start_up.xml",
+        "source": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/src/main/res/layout-sw600dp/activity_start_up.xml"
     }
 ]

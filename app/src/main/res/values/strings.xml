@@ -20,6 +20,10 @@
     <string name="alpha_centauri">Alpha Centauri:</string>
     <string name="sirius">Sirius:</string>
     <string name="andromeda">Andromeda:</string>
+    <string name="speed_of_light">Speed Of Light</string>
+    <string name="metric_system">Metric System</string>
+    <string name="miles">Miles</string>
+    <string name="kilometers">Kilometers</string>
 
 
 </resources>

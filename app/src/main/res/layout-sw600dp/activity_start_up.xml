@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/black"
+    tools:context="com.mertzlos.speedoflight.StartUpActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@drawable/lines">
+
+    </View>
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:text="@string/speed_of_light"/>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_below="@id/textTitle"
+        android:layout_height="3dp"
+        android:background="@drawable/lines">
+        </View>
+
+    <TextView
+        android:id="@+id/metric"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        style="@style/myText"
+        android:textAlignment="center"
+        android:text="@string/metric_system"
+        android:layout_below="@id/view2"/>
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_below="@id/metric"
+        android:layout_height="2dp"
+        android:background="@drawable/lines">
+    </View>
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_below="@id/view3"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radioMiles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/myText"
+            android:onClick="onRadioButtonClick"
+            android:text="@string/miles"/>
+        <RadioButton
+            android:id="@+id/radioKm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/myText"
+            android:layout_weight="1"
+            android:onClick="onRadioButtonClick"
+            android:text="@string/kilometers"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radio"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        style="@style/myText"
+        android:text="@string/approximate_dist"/>
+
+
+
+</RelativeLayout>
