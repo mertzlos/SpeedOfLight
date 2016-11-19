@@ -1,4 +1,4 @@
-#Sat Nov 19 01:17:53 EET 2016
+#Sat Nov 19 02:53:52 EET 2016
 base.0=/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3395f61320a9f9df56b11a8beb68ba46bfeb8c7a
 renamed.1=classes.dex
 renamed.0=classes2.dex
