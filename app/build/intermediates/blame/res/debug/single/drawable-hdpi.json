@@ -4,12 +4,28 @@
         "source": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/generated/res/pngs/debug/drawable-hdpi/ic_light.png"
     },
     {
+        "merged": "/Users/antreasmertzelos/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_car.png",
+        "source": "/Users/antreasmertzelos/AndroidStudioProjects/SpeedOfLight/app/build/generated/res/pngs/debug/drawable-hdpi/ic_car.png"
+    },
+    {
+        "merged": "/Users/antreasmertzelos/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_light.png",
+        "source": "/Users/antreasmertzelos/AndroidStudioProjects/SpeedOfLight/app/build/generated/res/pngs/debug/drawable-hdpi/ic_light.png"
+    },
+    {
         "merged": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_car.png",
         "source": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/generated/res/pngs/debug/drawable-hdpi/ic_car.png"
     },
     {
+        "merged": "/Users/antreasmertzelos/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_airplane.png",
+        "source": "/Users/antreasmertzelos/AndroidStudioProjects/SpeedOfLight/app/build/generated/res/pngs/debug/drawable-hdpi/ic_airplane.png"
+    },
+    {
         "merged": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_airplane.png",
         "source": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/generated/res/pngs/debug/drawable-hdpi/ic_airplane.png"
+    },
+    {
+        "merged": "/Users/antreasmertzelos/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_shuttle.png",
+        "source": "/Users/antreasmertzelos/AndroidStudioProjects/SpeedOfLight/app/build/generated/res/pngs/debug/drawable-hdpi/ic_shuttle.png"
     },
     {
         "merged": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_shuttle.png",
