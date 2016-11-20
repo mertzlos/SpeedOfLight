@@ -1,21 +1,5 @@
 [
     {
-        "merged": "/Users/antreasmertzelos/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_light.png",
-        "source": "/Users/antreasmertzelos/AndroidStudioProjects/SpeedOfLight/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_light.png"
-    },
-    {
-        "merged": "/Users/antreasmertzelos/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_car.png",
-        "source": "/Users/antreasmertzelos/AndroidStudioProjects/SpeedOfLight/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_car.png"
-    },
-    {
-        "merged": "/Users/antreasmertzelos/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_shuttle.png",
-        "source": "/Users/antreasmertzelos/AndroidStudioProjects/SpeedOfLight/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_shuttle.png"
-    },
-    {
-        "merged": "/Users/antreasmertzelos/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_airplane.png",
-        "source": "/Users/antreasmertzelos/AndroidStudioProjects/SpeedOfLight/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_airplane.png"
-    },
-    {
         "merged": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_light.png",
         "source": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_light.png"
     },
