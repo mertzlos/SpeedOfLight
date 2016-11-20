@@ -147,7 +147,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent intent = new Intent(getApplicationContext(), MoreActivity.class);
                 intent.putExtra(MORE_ACTIVITY,metric);
                 startActivity(intent);
-                //backgroundStateBottomRow(3);
+
                 break;
             default:
                 break;
