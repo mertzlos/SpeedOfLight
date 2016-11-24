@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
 
     tools:context="com.mertzlos.speedoflight.MainActivity">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
 
 
     <LinearLayout
@@ -21,55 +32,69 @@
             android:id="@+id/firstRow"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:weightSum="6"
+            android:gravity="center"
             android:orientation="horizontal">
 
-            <Button
+            <ImageView
                 android:id="@+id/car"
+                android:contentDescription="@string/car"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
                 android:layout_weight="1"
                 android:background="@drawable/background_radial"
-                android:drawableTop="@drawable/ic_car"
-                android:text="@string/car"
-                android:textColor="@color/black"
-                android:textSize="20sp" />
+                android:src="@drawable/ic_car"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                 />
 
-            <Button
+            <ImageView
                 android:id="@+id/plane"
+                android:contentDescription="@string/plane"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
                 android:layout_weight="1"
                 android:background="@drawable/background_radial"
-                android:drawableTop="@drawable/ic_airplane"
-                android:text="@string/plane"
-                android:textColor="@color/black"
-                android:textSize="20sp" />
+                android:src="@drawable/ic_airplane"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+               />
 
-            <Button
+            <ImageButton
                 android:id="@+id/rocket"
+                android:contentDescription="@string/rocket"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
                 android:layout_weight="1"
                 android:background="@drawable/background_radial"
-                android:drawableTop="@drawable/ic_shuttle"
-                android:text="@string/rocket"
-                android:textColor="@color/black"
-                android:textSize="20sp" />
+                android:src="@drawable/ic_shuttle"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+               />
 
-            <Button
+            <ImageButton
                 android:id="@+id/light"
+                android:contentDescription="@string/light"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
                 android:layout_weight="1"
                 android:background="@drawable/background_radial"
-                android:drawableTop="@drawable/ic_light"
-                android:text="@string/light"
-                android:textColor="@color/black"
-                android:textSize="20sp" />
+                android:src="@drawable/ic_light"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+               />
 
         </LinearLayout>
 
@@ -77,29 +102,25 @@
             android:id="@+id/view"
             android:layout_width="match_parent"
             android:layout_height="3dp"
-            android:layout_below="@id/firstRow"
             android:background="@drawable/lines" />
 
         <TextView
             android:id="@+id/speedText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/view"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="30sp" />
+            style="@style/mainTitle" />
 
         <View
             android:id="@+id/view2"
             android:layout_width="match_parent"
             android:layout_height="3dp"
-            android:layout_below="@id/speedText"
             android:background="@drawable/lines" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/view2"
             android:orientation="horizontal"
             android:weightSum="4">
 
@@ -111,10 +132,9 @@
                 android:layout_weight="1"
                 android:background="@drawable/background_radial"
                 android:text="@string/solar"
-
                 android:textAllCaps="false"
                 android:textColor="@color/black"
-                android:textSize="20sp" />
+                style="@style/myText" />
 
             <Button
                 android:id="@+id/stars"
@@ -126,7 +146,7 @@
                 android:text="@string/stars"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
-                android:textSize="20sp" />
+                style="@style/myText" />
 
             <Button
                 android:id="@+id/earth"
@@ -138,7 +158,7 @@
                 android:text="@string/earth"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
-                android:textSize="20sp" />
+                style="@style/myText" />
 
             <Button
                 android:id="@+id/more"
@@ -150,8 +170,7 @@
                 android:text="@string/scale_model"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
-                android:textScaleX=".8"
-                android:textSize="20sp" />
+                style="@style/myText" />
 
         </LinearLayout>
 
@@ -168,7 +187,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
+        android:layout_above="@id/adView"
         android:layout_below="@id/view3"
         android:padding="5dp">
 
@@ -176,10 +195,8 @@
             android:id="@+id/data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="10dp"
-            android:text="this is a test for te screen resolution"
             android:textColor="@color/white"
-            android:textSize="24sp" />
+            style="@style/myText" />
 
     </ScrollView>
 

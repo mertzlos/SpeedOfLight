@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.google.android.gms.ads.AdRequest;
@@ -16,10 +17,10 @@ import java.text.DecimalFormat;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     static final String MORE_ACTIVITY = "metric";
 
-    private Button car;
-    private Button plane;
-    private Button rocket;
-    private Button light;
+    private ImageView car;
+    private ImageView plane;
+    private ImageView rocket;
+    private ImageView light;
     private Button solar;
     private Button earth;
     private Button stars;
@@ -69,13 +70,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
 
-        car = (Button) findViewById(R.id.car);
+        car = (ImageView) findViewById(R.id.car);
         car.setOnClickListener(this);
-        plane = (Button) findViewById(R.id.plane);
+        plane = (ImageView) findViewById(R.id.plane);
         plane.setOnClickListener(this);
-        rocket = (Button) findViewById(R.id.rocket);
+        rocket = (ImageView) findViewById(R.id.rocket);
         rocket.setOnClickListener(this);
-        light = (Button) findViewById(R.id.light);
+        light = (ImageView) findViewById(R.id.light);
         light.setOnClickListener(this);
 
         solar = (Button) findViewById(R.id.solar);
@@ -91,7 +92,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         outputText = (TextView) findViewById(R.id.data);
 
 
-        outputText.setText("Please Select a vehicle and Then a Category");
+        outputText.setText(R.string.select_vehicle);
 
 
     }
@@ -187,10 +188,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public void printOut(String vehicleName, String name) {
            // fix the problem when coming back from more activity vehicle buttons won't work.
-        if (name == "null") {
-            outputText.setText("Please select category");
-        } else if (vehicleName == "null") {
-            outputText.setText("Please select a vehicle");
+        if (name.equals("null")) {
+            outputText.setText(R.string.select_category);
+        } else if (vehicleName.equals("null")) {
+            outputText.setText(R.string.select_vehicle_category);
         } else {
             switch (name) {
                 case "solar":

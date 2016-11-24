@@ -2190,17 +2190,18 @@ containing a value of this type.
         public static final int scale_model=0x7f060053;
         public static final int scale_model_of_distances=0x7f060054;
         public static final int search_menu_title=0x7f06002c;
-        public static final int sirius=0x7f060055;
-        public static final int solar=0x7f060056;
-        public static final int solar_edge=0x7f060057;
-        public static final int speed_of_light=0x7f060058;
-        public static final int stars=0x7f060059;
+        public static final int select_vehicle=0x7f060055;
+        public static final int sirius=0x7f060056;
+        public static final int solar=0x7f060057;
+        public static final int solar_edge=0x7f060058;
+        public static final int speed_of_light=0x7f060059;
+        public static final int stars=0x7f06005a;
         public static final int status_bar_notification_info_overflow=0x7f06002d;
         public static final int store_picture_message=0x7f06002e;
         public static final int store_picture_title=0x7f06002f;
-        public static final int sun=0x7f06005a;
-        public static final int sun_diameter=0x7f06005b;
-        public static final int venus=0x7f06005c;
+        public static final int sun=0x7f06005b;
+        public static final int sun_diameter=0x7f06005c;
+        public static final int venus=0x7f06005d;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f08008c;

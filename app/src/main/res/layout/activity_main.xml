@@ -12,17 +12,16 @@
         android:id="@+id/adView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         ads:adSize="BANNER"
         ads:adUnitId="@string/banner_ad_unit_id">
-    </com.google.android.gms.ads.AdView>
+      </com.google.android.gms.ads.AdView>
 
 
     <LinearLayout
         android:id="@+id/buttonViews"
         android:layout_width="match_parent"
-
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
@@ -32,51 +31,64 @@
             android:id="@+id/firstRow"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="6">
 
-            <Button
+            <ImageView
                 android:id="@+id/car"
+                android:contentDescription="@string/car"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
+                android:layout_margin="4dp"
                 android:layout_weight="1"
+                android:adjustViewBounds="true"
                 android:background="@drawable/background_radial"
-                android:drawableTop="@drawable/ic_car"
-                android:text="@string/car"
-                android:textColor="@color/black" />
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_car" />
 
-            <Button
+            <ImageView
                 android:id="@+id/plane"
+                android:contentDescription="@string/plane"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
+                android:layout_margin="4dp"
                 android:layout_weight="1"
+                android:adjustViewBounds="true"
                 android:background="@drawable/background_radial"
-                android:drawableTop="@drawable/ic_airplane"
-                android:text="@string/plane"
-                android:textColor="@color/black" />
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:src="@drawable/ic_airplane" />
 
-            <Button
+            <ImageView
                 android:id="@+id/rocket"
+                android:contentDescription="@string/rocket"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
+                android:layout_margin="4dp"
                 android:layout_weight="1"
+                android:adjustViewBounds="true"
                 android:background="@drawable/background_radial"
-                android:drawableTop="@drawable/ic_shuttle"
-                android:text="@string/rocket"
-                android:textColor="@color/black" />
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_shuttle" />
 
-            <Button
+            <ImageView
                 android:id="@+id/light"
+                android:contentDescription="@string/light"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
+                android:layout_margin="4dp"
                 android:layout_weight="1"
+                android:adjustViewBounds="true"
                 android:background="@drawable/background_radial"
-                android:drawableTop="@drawable/ic_light"
-                android:text="@string/light"
-                android:textColor="@color/black" />
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_light" />
 
         </LinearLayout>
 
@@ -84,14 +96,12 @@
             android:id="@+id/view"
             android:layout_width="match_parent"
             android:layout_height="3dp"
-            android:layout_below="@id/firstRow"
             android:background="@drawable/lines" />
 
         <TextView
             android:id="@+id/speedText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/view"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="18sp" />
@@ -100,13 +110,11 @@
             android:id="@+id/view2"
             android:layout_width="match_parent"
             android:layout_height="3dp"
-            android:layout_below="@id/speedText"
             android:background="@drawable/lines" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/view2"
             android:orientation="horizontal"
             android:weightSum="4">
 
@@ -115,7 +123,7 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
+                android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:background="@drawable/background_radial"
                 android:text="@string/solar"
@@ -127,7 +135,7 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
+                android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:background="@drawable/background_radial"
                 android:text="@string/stars"
@@ -139,7 +147,7 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
+                android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:background="@drawable/background_radial"
                 android:text="@string/earth"
@@ -151,19 +159,17 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
+                android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:background="@drawable/background_radial"
                 android:text="@string/scale_model"
                 android:textAllCaps="false"
-                android:textColor="@color/black"
-                android:textScaleX=".8" />
+                android:textColor="@color/black" />
 
         </LinearLayout>
 
 
     </LinearLayout>
-
 
 
     <View
@@ -178,19 +184,16 @@
         android:layout_height="match_parent"
         android:layout_above="@id/adView"
         android:layout_below="@id/view3"
-        android:padding="5dp">
+        android:layout_margin="5dp">
 
         <TextView
             android:id="@+id/data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="10dp"
-            android:text="this is a test for te screen resolution"
             android:textColor="@color/white"
             android:textSize="16sp" />
 
     </ScrollView>
-
 
 
 </RelativeLayout>
