@@ -120,9 +120,9 @@
 
             <Button
                 android:id="@+id/solar"
-                style="?android:attr/buttonBarButtonStyle"
+                style="@style/myText"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:background="@drawable/background_radial"
@@ -132,9 +132,9 @@
 
             <Button
                 android:id="@+id/stars"
-                style="?android:attr/buttonBarButtonStyle"
+                style="@style/myText"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:background="@drawable/background_radial"
@@ -144,9 +144,9 @@
 
             <Button
                 android:id="@+id/earth"
-                style="?android:attr/buttonBarButtonStyle"
+                style="@style/myText"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:background="@drawable/background_radial"
@@ -156,9 +156,9 @@
 
             <Button
                 android:id="@+id/more"
-                style="?android:attr/buttonBarButtonStyle"
+                style="@style/myText"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:background="@drawable/background_radial"

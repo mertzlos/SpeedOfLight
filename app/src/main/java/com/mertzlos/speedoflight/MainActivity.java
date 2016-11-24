@@ -37,9 +37,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private AdView mAdView;
 
 
-
-
-
     private DecimalFormat mDecimalFormat = new DecimalFormat("#,###,###");
 
     @Override
@@ -52,22 +49,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mAdView.loadAd(adRequest);
 
 
-
         Intent intent = getIntent();
-        if(null != intent){
+        if (null != intent) {
 
             metric = intent.getStringExtra(StartUpActivity.MESSAGE_FOR);
             PrintData.setStringMetric(metric);
         }
-        switch (metric){
+        switch (metric) {
             case "Km":
-            setMetricPh = "Kph";
+                setMetricPh = "Kph";
                 break;
             case "Miles":
-            setMetricPh = "Mph";
+                setMetricPh = "Mph";
                 break;
         }
-
 
 
         car = (ImageView) findViewById(R.id.car);
@@ -101,14 +96,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
         Double val = new TravelObj().travelWith.get(vehicle);
-        if(metric.equals("Miles")){
-           val = val * 0.621371192;
+        if (metric.equals("Miles")) {
+            val = val * 0.621371192;
         }
         vehicleName = vehicle;
         String s = mDecimalFormat.format(val);
 
-        speedText.setText(vehicleName+": "+ s + " "+setMetricPh);
-        Log.v("metric","is: "+setMetricPh);
+        speedText.setText(vehicleName + ": " + s + " " + setMetricPh);
+        Log.v("metric", "is: " + setMetricPh);
     }
 
     @Override
@@ -146,7 +141,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.more:
                 name = "more";
                 Intent intent = new Intent(getApplicationContext(), MoreActivity.class);
-                intent.putExtra(MORE_ACTIVITY,metric);
+                intent.putExtra(MORE_ACTIVITY, metric);
                 startActivity(intent);
 
                 break;
@@ -187,7 +182,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void printOut(String vehicleName, String name) {
-           // fix the problem when coming back from more activity vehicle buttons won't work.
+        // fix the problem when coming back from more activity vehicle buttons won't work.
         if (name.equals("null")) {
             outputText.setText(R.string.select_category);
         } else if (vehicleName.equals("null")) {
