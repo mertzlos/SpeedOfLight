@@ -16,7 +16,7 @@
         android:layout_centerHorizontal="true"
         ads:adSize="BANNER"
         ads:adUnitId="@string/banner_ad_unit_id">
-      </com.google.android.gms.ads.AdView>
+    </com.google.android.gms.ads.AdView>
 
 
     <LinearLayout
@@ -37,13 +37,13 @@
 
             <ImageView
                 android:id="@+id/car"
-                android:contentDescription="@string/car"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:background="@drawable/background_radial"
+                android:contentDescription="@string/car"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
                 android:scaleType="fitXY"
@@ -51,26 +51,26 @@
 
             <ImageView
                 android:id="@+id/plane"
-                android:contentDescription="@string/plane"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:background="@drawable/background_radial"
+                android:contentDescription="@string/plane"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
                 android:src="@drawable/ic_airplane" />
 
             <ImageView
                 android:id="@+id/rocket"
-                android:contentDescription="@string/rocket"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:background="@drawable/background_radial"
+                android:contentDescription="@string/rocket"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
                 android:scaleType="fitXY"
@@ -78,13 +78,13 @@
 
             <ImageView
                 android:id="@+id/light"
-                android:contentDescription="@string/light"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:background="@drawable/background_radial"
+                android:contentDescription="@string/light"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
                 android:scaleType="fitXY"

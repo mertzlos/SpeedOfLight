@@ -422,7 +422,9 @@
     <string name="scale_model">Scale</string>
     <string name="scale_model_of_distances">Scale Model of Distances</string>
     <string name="search_menu_title">Search</string>
-    <string name="select_vehicle">Please Select a vehicle and Then a Category</string>
+    <string name="select_category">Please select a category</string>
+    <string name="select_vehicle">Please select a vehicle and then a category</string>
+    <string name="select_vehicle_category">Please select a vehicle</string>
     <string name="sirius">Sirius:</string>
     <string name="solar">Solar</string>
     <string name="solar_edge">Solar Edge:</string>
