@@ -1,6 +1,7 @@
 package com.mertzlos.speedoflight;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -16,6 +17,7 @@ import java.text.DecimalFormat;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     static final String MORE_ACTIVITY = "metric";
+
 
     private ImageView car;
     private ImageView plane;
@@ -38,11 +40,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
     private DecimalFormat mDecimalFormat = new DecimalFormat("#,###,###");
+    private String n;
+    private String v;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
@@ -103,12 +108,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String s = mDecimalFormat.format(val);
 
         speedText.setText(vehicleName + ": " + s + " " + setMetricPh);
-        Log.v("metric", "is: " + setMetricPh);
+
     }
 
     @Override
     public void onClick(View view) {
 
+        n = name;
+        v = vehicleName;
         switch (view.getId()) {
             case R.id.car:
                 speedText("Car");
@@ -131,7 +138,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 backgroundStateBottomRow(0);
                 break;
             case R.id.earth:
-                name = "Earth";
+                name = "earth";
                 backgroundStateBottomRow(1);
                 break;
             case R.id.stars:
@@ -140,6 +147,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.more:
                 name = "more";
+                more.setBackgroundResource(R.drawable.background_radial_pressed);
                 Intent intent = new Intent(getApplicationContext(), MoreActivity.class);
                 intent.putExtra(MORE_ACTIVITY, metric);
                 startActivity(intent);
@@ -148,7 +156,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             default:
                 break;
         }
+
+
         printOut(vehicleName, name);
+        Log.v("button", "is pressed");
     }
 
     public void backgroundStateTopRow(int state) {
@@ -182,7 +193,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void printOut(String vehicleName, String name) {
-        // fix the problem when coming back from more activity vehicle buttons won't work.
         if (name.equals("null")) {
             outputText.setText(R.string.select_category);
         } else if (vehicleName.equals("null")) {
@@ -192,7 +202,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 case "solar":
                     outputText.setText(new SolarSystem(vehicleName).getSb());
                     break;
-                case "Earth":
+                case "earth":
                     outputText.setText(new Earth(vehicleName).getSb());
                     break;
                 case "stars":
@@ -201,5 +211,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     break;
             }
         }
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+
+        name = n;
+        vehicleName = v;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        more.setBackgroundResource(R.drawable.background_radial);
+
     }
 }

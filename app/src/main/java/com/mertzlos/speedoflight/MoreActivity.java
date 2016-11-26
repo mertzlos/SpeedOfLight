@@ -75,7 +75,7 @@ public class MoreActivity extends AppCompatActivity {
                 double value = min + (progress * step);
 
                 if (metricSys.equals("Miles")) {
-                       ft_m = " ft";
+                    ft_m = " ft";
                 }
                 sunEarth.setText(value + ft_m);
                 planetsInfo(value);
@@ -131,12 +131,12 @@ public class MoreActivity extends AppCompatActivity {
         if (metricSys.equals("Miles")) {
             result = planetInfo;
             metric = " ft";
-            if(planetInfo >= 5280){
-                result = planetInfo/5280;
+            if (planetInfo >= 5280) {
+                result = planetInfo / 5280;
                 metric = " miles";
             }
 
-            //Log.v("miles", "tru");
+
         } else {
 
 
@@ -147,6 +147,7 @@ public class MoreActivity extends AppCompatActivity {
                 result = planetInfo;
                 metric = " m";
             }
+
         }
 
         return output = decimalFormat.format(result) + metric;
