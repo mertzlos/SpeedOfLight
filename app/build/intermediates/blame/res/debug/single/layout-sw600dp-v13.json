@@ -1,14 +1,14 @@
 [
     {
-        "merged": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/activity_more.xml",
-        "source": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/src/main/res/layout-sw600dp/activity_more.xml"
+        "merged": "/Users/antreasmertzelos/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/activity_start_up.xml",
+        "source": "/Users/antreasmertzelos/AndroidStudioProjects/SpeedOfLight/app/src/main/res/layout-sw600dp/activity_start_up.xml"
     },
     {
-        "merged": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/activity_main.xml",
-        "source": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/src/main/res/layout-sw600dp/activity_main.xml"
+        "merged": "/Users/antreasmertzelos/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/activity_more.xml",
+        "source": "/Users/antreasmertzelos/AndroidStudioProjects/SpeedOfLight/app/src/main/res/layout-sw600dp/activity_more.xml"
     },
     {
-        "merged": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/activity_start_up.xml",
-        "source": "/home/antreas/AndroidStudioProjects/SpeedOfLight/app/src/main/res/layout-sw600dp/activity_start_up.xml"
+        "merged": "/Users/antreasmertzelos/AndroidStudioProjects/SpeedOfLight/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/activity_main.xml",
+        "source": "/Users/antreasmertzelos/AndroidStudioProjects/SpeedOfLight/app/src/main/res/layout-sw600dp/activity_main.xml"
     }
 ]

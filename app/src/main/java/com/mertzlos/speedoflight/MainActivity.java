@@ -159,7 +159,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
         printOut(vehicleName, name);
-        Log.v("button", "is pressed");
     }
 
     public void backgroundStateTopRow(int state) {

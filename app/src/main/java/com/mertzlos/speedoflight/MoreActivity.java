@@ -59,7 +59,6 @@ public class MoreActivity extends AppCompatActivity {
         if (null != intent) {
             metricSys = intent.getStringExtra(MainActivity.MORE_ACTIVITY);
         }
-        Log.v("metricSys", metricSys);
 
 
         sunEarth.setText("" + seekBar.getProgress());
